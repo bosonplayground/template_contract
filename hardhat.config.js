@@ -1,5 +1,4 @@
 require("@nomiclabs/hardhat-waffle");
-require('hardhat-docgen');
 require('hardhat-contract-sizer');
 
 
@@ -44,11 +43,6 @@ module.exports = {
                 path: "m/44'/60'/0'/0",
             },
         },
-    },
-    docgen: {
-        path: './docs',
-        clear: true,
-        runOnCompile: true,
     },
     contractSizer: {
         alphaSort: true,
